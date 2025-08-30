@@ -10,7 +10,7 @@ public class StackImplementation<E> implements StackAbstraction<E> {
 		data.add(x);	 
 	}
 	
-	// data.size() - 1 is the index of the last data added
+	// data.size() - 1 is the index of the last data added, LIFO
 	public E pop() {
 		return data.remove(data.size() - 1);
 	}
